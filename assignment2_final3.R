@@ -3,7 +3,7 @@ library(forecast)
 library(fGarch)
 
 # Set the folder (path) that contains this R file as the working directory
-dir <- dirname("/Users/nachocriado/Desktop/Classes/Time Series Forecasting")
+dir <- dirname("/Users/lachlantodd/Desktop/Classes/Time Series Forecasting")
 dir <- dirname(rstudioapi::getActiveDocumentContext()$path)
 
 setwd(dir)
